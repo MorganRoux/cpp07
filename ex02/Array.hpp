@@ -6,7 +6,7 @@
 /*   By: mroux <mroux@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/30 20:50:27 by mroux             #+#    #+#             */
-/*   Updated: 2021/06/30 22:03:45 by mroux            ###   ########.fr       */
+/*   Updated: 2021/06/30 22:05:27 by mroux            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,7 +114,5 @@ std::ostream&	operator<<(std::ostream& stream, Array<T>const& cl)
 	cl.display(stream);
 	return (stream);
 }
-
-
 
 #endif
